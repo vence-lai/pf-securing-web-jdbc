@@ -37,7 +37,7 @@
 				<div class="alert-normal">You have been logged out.</div>
 			</c:if>
 		</div>
-		<!-- 加入此行才可防止被 csrf 攻擊， -->
+		<!-- 加入此行才可防止被 csrf 攻擊。 -->
 		<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
 	</form>
 
